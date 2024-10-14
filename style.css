@@ -4,34 +4,29 @@
 
 body {
     font-family: "Oswald", sans-serif;
-    line-height: 1.25;
+    line-height: 1.5;
     margin: 0;
     padding: 0;
 }
 
-header {
-    background-color: #384150;
-    padding: 0.45em;
-    text-align: center;
-}
-
-header nav ul {
+nav ul {
     padding: 0;
 }
 
 nav li {
     display: inline-block;
-    font-size: 1.15em;
-    padding: .25em 1em;
+    font-size: 1em;
+    padding-inline: 0.5em;
     text-transform: uppercase;
 }
 
 nav li:not(:last-child) {
     border-right: 1px solid #666;
+    /* padding-right: 0.25em; */
 }
 
 nav a {
-    border-bottom: 3px solid #666;
+    border-bottom: 2px solid #666;
     color: #ccc;
     text-decoration: none;
 }
@@ -42,21 +37,26 @@ nav li a:hover {
 
 .parent {
     display: grid;
-    grid-template-rows: auto 1fr auto;
+    grid-template-rows: 1fr auto;
     height: 100vh;
 }
 
 main {
     display: grid;
     place-items: center;
-    font-size: 3rem;
     text-align: center;
     margin-inline: 2rem;
 }
 
+main h1 {
+    font-size: 3rem;
+    line-height: 1.1;
+}
+
 footer {
+    font-size: 0.75em;
     background-color: #384150;
-    padding: 1.5rem;
+    padding: 1.125rem;
     text-align: center;
     color: #ccc;
 }
