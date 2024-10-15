@@ -1,5 +1,12 @@
 ## Bradley's Personal Site 
-### Build with HTML and CSS
-its a work in progress 
 
-author -> [Bradley Tim](https://github.com/BradleyTim) 
+This site is built with: 
+1. HTML; 
+2. CSS; and 
+3. JS
+
+>> Of course it is still a work in progress. 
+
+***Full documentation is coming soon***
+
+Author is [Bradley Tim](https://github.com/BradleyTim) 
